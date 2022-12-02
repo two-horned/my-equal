@@ -6,9 +6,8 @@
 ; man einen Identifier unveraendert lassen kann
 
 
-; Hier worueber wird nach der Vorlesung gesprochen haben.
-; Das "HARTE" erzwingen von der Verwendung von y in einem
-; Match-Ausdruck
+; Hier worueber wir nach der Vorlesung gesprochen haben.
+; Das "HARTE" erzwingen von der Verwendung von y in einem Match-Ausdruck
 (define my-equal?*
   (lambda (x y)
   (match y
